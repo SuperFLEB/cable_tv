@@ -1,0 +1,47 @@
+.marquee-outer {
+	--width-in-ch: 40;
+	--message-width: 68;
+	--time-per-char: 0.1s;
+}
+
+@keyframes marquee-inner {
+	from { margin-left: 0; }
+	to { margin-left: calc(-1ch * var(--message-width)); }
+}
+
+@keyframes marquee-outer {
+	from { margin-left: 1ch; }
+	to { margin-left: 0; }
+}
+
+.marquee-outer {
+	box-sizing: border-box;
+	width: calc(1ch * var(--width-in-ch));
+	overflow: hidden;
+	white-space: nowrap;
+
+	animation-name: marquee-outer;
+	animation-duration: var(--time-per-char);
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+.marquee-inner, .marquee-duplicate {
+	display: inline-block;
+	position: relative;
+	white-space: nowrap;
+	height: 1em;
+}
+
+.marquee-inner {
+	animation: marquee-inner calc(var(--time-per-char) * var(--message-width)) steps(var(--message-width), end) infinite;
+}
+
+.marquee-duplicate {
+	display: inline-block;
+}
+
+.marquee-test {
+	width: 100%;
+}
+

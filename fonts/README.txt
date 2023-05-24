@@ -1,0 +1,1 @@
+Star3000 fonts are available from https://twcclassics.com/downloads.html. Unpack the .ttf files here.

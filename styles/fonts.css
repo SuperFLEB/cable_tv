@@ -1,0 +1,82 @@
+/* Star3000 fonts are available from https://twcclassics.com/downloads.html. Unpack them into the "fonts" directory. */
+
+@font-face {
+    font-family: 'Star3HeavyRegular';
+    src: url('fonts/star3000_heavy-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Star3ExtendedHeavyRegular';
+    src: url('fonts/star3000_extended_heavy-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Star3ExtendedRegular';
+    src: url('fonts/star3000_extended-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Star3ExtraLargeRegular';
+    src: url('fonts/star3000_extra_large-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Star3TerminalRegular';
+    src: url('fonts/star3000_terminal-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'Star3SmallHeavyRegular';
+    src: url('fonts/star3000_small_heavy-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Star3Regular';
+    src: url('fonts/star3000-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Star3SmallRegular';
+    src: url('fonts/star3000_small-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Star3LargeHeavyRegular';
+    src: url('fonts/star3000_large_heavy-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Star3LargeRegular';
+    src: url('fonts/star3000_large-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}

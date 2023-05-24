@@ -1,0 +1,153 @@
+// out: charagen.css
+
+html, body {
+    background-color: black;
+    color: white;
+    font-family: Star3Regular;
+    font-size: 5vh;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    min-height: 100vh;
+
+    padding-top: 3.5em;
+
+    font-family: Star3Regular;
+    background-color: blue;
+    color: white;
+
+    text-shadow: -0.2em 0em 0.05em rgba(180, 180, 0, 0.125),
+    0.1em 0 0.05em rgba(0,255,255,0.3);
+}
+
+
+.scroller {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2em;
+    border-top: .25em solid transparent;
+
+    text-transform: uppercase;
+    text-align: left;
+    font-family: Star3ExtendedRegular;
+    background-color: green;
+    color: white;
+}
+
+header {
+    position: fixed;
+    text-align: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-top: 0.5em;
+
+    text-transform: uppercase;
+
+    font-family: Star3LargeRegular;
+    background-color: red;
+    color: white;
+
+    h1 {
+        background-color: transparent;
+        padding: 0;
+        height: 2em;
+    }
+
+    .time {
+        top: 2.5em;
+        height: 1em;
+        line-height: 1em;
+    
+        text-transform: uppercase;
+        font-family: Star3SmallRegular;
+        background-color: #990;
+        color: black;
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+    font-weight: normal;
+
+    padding: 0.2em 0;
+    background-color: purple;
+}
+
+h1 {
+    font-family: Star3ExtraLargeRegular;
+}
+
+h2 {
+    font-family: Star3LargeRegular;
+}
+
+p {
+    margin: 0.25em;
+    padding: 0;
+}
+
+main {
+    text-align: center;
+    top: 3.5em;
+    bottom: 2.25em;
+}
+
+.charagen-biggest {
+    font-family: Star3ExtraLargeRegular;
+}
+
+.charagen-big {
+    font-family: Star3LargeRegular;
+}
+
+.charagen-bigbold {
+    font-family: Star3LargeBold;
+}
+
+.charagen-normal {
+    font-family: Star3Regular;
+}
+
+.charagen-normalbold {
+    font-family: Star3HeavyRegular;
+}
+
+.charagen-small {
+    font-family: Star3SmallRegular;
+}
+
+.charagen-smallbold {
+    font-family: Star3SmallHeavyRegular;
+}
+
+.charagen-wide {
+    font-family: Star3ExtendedRegular;
+}
+
+.charagen-widebold {
+    font-family: Star3ExtendedHeavyRegular;
+}
+
+// Using margins to "hide" the text, because animating the shadows isn't working
+@keyframes charagen-blinky {
+	0% { margin-left: -999em; }
+	100% { }
+}
+
+.charagen-blinky {
+    animation-name: charagen-blinky;
+	animation-duration: 2s;
+    animation-iteration-count: infinite;
+	animation-timing-function: steps(2, start);
+}
