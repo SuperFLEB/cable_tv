@@ -1,6 +1,6 @@
 # Cable TV Website Theme
 
-This is a mockup of a Web page theme that looks a bit like the old Texscan MSI-generated community channels from the '80s
+This is a mockup of a Web page theme that looks a bit like the old Texscan MSI-generated bulletin board channels from the '80s
 and '90s. It uses fonts from a Weather Channel revival project, not the exact Texscan fonts, so it won't look the same
 head-to-head, but it'll give a hit of nostalgia in a pinch.
 
@@ -22,7 +22,7 @@ lessc styles.less styles.css
 
 And that's only if you change things in the .less file.
 
-# License?
+## License?
 
 Use it for what you want. Build off it, distribute it, make your millions on its back. All I ask is that you don't
 claim you made it when you didn't, and... _ahem..._ THIS PRODUCT IS DISTRIBUTED AS-IS WITH NO WARRANTY OF MERCHANTABILITY,
